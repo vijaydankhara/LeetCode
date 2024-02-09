@@ -22,6 +22,10 @@
 // -5 * 104 <= nums[i] <= 5 * 104
 
 
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
 var sortArray = function(nums) {
     let compare =(a,b)=>{
         return a-b;

@@ -31,7 +31,10 @@
 // There is at least one word in s.
 
 
-
+/**
+ * @param {string} s
+ * @return {string}
+ */
 var reverseWords = function(s) {
     s = s.split(' ');
     let reverce = [];

@@ -23,6 +23,10 @@
 // Explanation: There is no x where 3x = (-1).
  
 
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
 var isPowerOfThree = function(n) {
     while (n>1)
     {
