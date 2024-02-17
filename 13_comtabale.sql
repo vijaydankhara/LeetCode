@@ -70,24 +70,24 @@ SELECT firstName, lastName, city, state FROM Person LEFT JOIN Address USING(pers
 -- left join is returns all records from the left table 
 -- matche records from the right side in the  table
 
-create table Person(
-   personId  int primary key, 
-   lastName varchar,
-   firstName varchar
-);
+-- create table Person(
+--    personId  int primary key, 
+--    lastName varchar,
+--    firstName varchar
+-- );
 
-create table Address(
-  addressId  int primary key,
-   personId int,
-   foreign key(personId) references Person(personId),
-    city varchar,
-    state varchar
-);
+-- create table Address(
+--   addressId  int primary key,
+--    personId int,
+--    foreign key(personId) references Person(personId),
+--     city varchar,
+--     state varchar
+-- );
 
-insert into Person(personId,"lastName","firstName") values
- (1,'vijay','dankhara'),
-  (2'shital','patel');
+-- insert into Person(personId,"lastName","firstName") values
+--  (1,'vijay','dankhara'),
+--   (2'shital','patel');
 
-  insert into Address(addressId,personId,"city","state") values
-  (1,1,'surat', 'gujarat'),
-  (2,2,'ahemdabad', 'gujarat');
+--   insert into Address(addressId,personId,"city","state") values
+--   (1,1,'surat', 'gujarat'),
+--   (2,2,'ahemdabad', 'gujarat');
