@@ -22,3 +22,15 @@
 var toLowerCase = function(s) {
     return s.toLowerCase()
 };
+// let s = "VIJAY Dankhar";
+// console.log(toLowerCase(s));   // vijay dankhar
+
+// let s = "VIJAY DANKHARA";
+// console.log(toLowerCase(s));    // vijay dankhar
+
+// let s = "Vijay dankhar";
+// console.log(toLowerCase(s));    // vijay dankhar
+
+
+// let s = "vijay dankhar";
+// console.log(toLowerCase(s));    // vijay dankhar
