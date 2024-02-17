@@ -70,6 +70,54 @@ SELECT firstName, lastName, city, state FROM Person LEFT JOIN Address USING(pers
 -- left join is returns all records from the left table 
 -- matche records from the right side in the  table
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- create table Person(
 --    personId  int primary key, 
 --    lastName varchar,
