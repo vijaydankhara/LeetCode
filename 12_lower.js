@@ -19,8 +19,8 @@
  * @param {string} s
  * @return {string}
  */
-var toLowerCase = function(s) {
-    return s.toLowerCase()
+var toLowerCase = function(s) {  // Non Parameters
+    return s.toLowerCase()   // The string converted to lowercase.
 };
 // let s = "VIJAY Dankhar";
 // console.log(toLowerCase(s));   // vijay dankhar
