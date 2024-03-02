@@ -28,7 +28,7 @@
  * @return {boolean}
  */
 var isPowerOfFour = function(n) {
-    while (n>1)
+    while (n>1)  // n bi 1
    {
        n /= 4
    }
